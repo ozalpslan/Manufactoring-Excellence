@@ -1,0 +1,7 @@
+process_step,current_owner,frequency,before_minutes,after_minutes,value_added_type,automation_note
+MES export download,Production clerk,Daily,20,4,NVAA,Automated CSV ingestion from the standard export folder.
+Excel copy-paste consolidation,Shift supervisor,Daily,35,3,NVAA,pandas pipeline consolidates all records into one clean table.
+Downtime reason grouping,Process engineer,Daily,25,5,NNVA,Standard downtime taxonomy and automatic Pareto grouping.
+OEE formula update,Manufacturing excellence analyst,Daily,30,2,NVAA,"Availability, Performance, Quality, and OEE calculated automatically."
+Daily report formatting,Production clerk,Daily,25,5,NVAA,Streamlit and Excel export standardize the report layout.
+Power BI dataset refresh preparation,Data analyst,Weekly,45,8,NVAA,Power BI-ready dataset generated with date keys and KPI columns.
