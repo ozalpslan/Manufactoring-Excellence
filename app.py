@@ -155,11 +155,6 @@ raw_df, manual_steps_df, clean_oee_df, issues_df, full_powerbi_df = load_data()
 nvaa_df = calculate_nvaa_savings(manual_steps_df)
 
 st.title("Manufacturing Excellence OEE & Reporting Automation Dashboard")
-st.markdown(
-    "<p class='app-subtitle'>Digital manufacturing excellence view for automated MES-like reporting, "
-    "OEE calculation, data-quality control, downtime and scrap analysis, and RCA/Kaizen prioritization.</p>",
-    unsafe_allow_html=True,
-)
 
 min_date = clean_oee_df["date"].min()
 max_date = clean_oee_df["date"].max()
